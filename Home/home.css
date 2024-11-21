@@ -37,6 +37,7 @@ a:hover{
 }
 .nav-1 a.active{
     color:#512da8;
+    border-bottom: #512da8 solid 3px;
 }
 i{
     margin-right: 10px;
