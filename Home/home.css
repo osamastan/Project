@@ -12,7 +12,11 @@ body {
 
 
 header {
-    background-color: #a5a5ad;
+    /* #a5a5ad
+    #8B4513
+    #A0522D
+    */
+    background-color: #654321;
     position: sticky;
     top: 0;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
@@ -56,12 +60,12 @@ a {
 }
 
 a:hover {
-    color: #512da8;
+    color: #8FBC8F;
 }
 
 .nav-1 a.active {
-    color: #512da8;
-    border-bottom: 3px solid #512da8;
+    color: #8FBC8F;
+    border-bottom: 3px solid #8FBC8F;
 }
 
 i {
@@ -81,8 +85,13 @@ i {
     text-transform: capitalize;
     margin-top: 20vh ;
     margin-left: 10vh;
-    color: white;
+    color: #50a450;
 }
+/* 
+#8FBC8F
+#654321
+#A68A6C
+*/
 
 /* Responsive Styles */
 @media (max-width: 768px) {
